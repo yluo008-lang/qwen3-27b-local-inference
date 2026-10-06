@@ -1,0 +1,3 @@
+title: "Qwen3.8 27B 本地推理实验"
+description: "NGL、KV Cache、Agent 和 Memory Expansion —— 本地推理实验记录"
+theme: jekyll-theme-primer
