@@ -543,3 +543,9 @@ GPU + CPU
 > 它的对照基线是什么？到底解决了容量、带宽、并发还是数据放置问题？性能提升来自 Memory Expansion 本身，还是同时换了 kernel / execution path？
 
 对我来说，这比直接判断“CXL 有用还是没用”，更接近下一步真正需要验证的问题。
+
+---
+
+## 配套文档
+
+- [PCIe Attached Memory 作为 KV Cache 层：单卡验证测试方案](PCIe_Memory_KV_Cache_单卡验证测试方案.html) — 后续的单卡验证测试方案（H1–H5 假设、9 步实验、`kv_calc.py` / `tpot_fit.py` / `check_platform.sh` / `dma_bench.py` 工具）。
